@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style-sheet.css">
+    <title>Contact me!</title>
+</head>
+
+<body>
+    <header>
+        <h1>Share your experience!</h1>
+        <aside>
+                <nav class="menu-box">
+                    <ul class="menu-items">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./History.html">History of Red Velvet Cake</a></li>
+                        <li><a href="./media.html">Media</a></li>
+                        <li><a href="./Contact-form.html">Contact</a></li>
+                    </ul>
+                </nav>
+        </aside>
+    </header>
+    <main>
+        <h2>If you'd like to contact me, please fill in the form below.</h2>
+        <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true"></form>
+                <div class="question">
+                    <p>
+                        <label>Your name: </label>
+                        <input type="text" name="name">
+                    </p>
+                </div>
+                <div class="question">
+                    <p>
+                        <label>Your email:</label> 
+                        <input type="email" name="email">
+                    </p>
+                </div>
+                <div class="question">
+                    <p>
+                        <label>your phonenumber: </label>
+                        <input type="tel" name="tel.">
+                    </p>
+                </div>               
+                <div class="question">
+                    <p>
+                        <label>Date of birth:</label>
+                        <input type="date" id="Date of Birth" name="Your date of birth" value="2018-07-22" min="1900-01-01" max="2018-12-31">
+                    </p>
+                </div>
+                <div class="question">
+                    <p> Please select your gender: </p>
+                    <div class="choose-gender">
+                        <input type="radio" id="Man" name="Gender" value="Man">
+                        <label for="Man">Man</label><br>
+                        <input type="radio" id="Woman" name="Gender" value="Woman">
+                        <label for="Woman">Woman</label><br>
+                        <input type="radio" id="Other" name="Gender" value="Other">
+                        <label for="Other">Other</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>Which colour do you prefer for your Red Velvet Cake? (it doesn't have to be red)</p>
+                        <label for="Colorpicker"> Red Velvet colour</label>
+                        <input type="color" id="colorpicker" value="#0000ff">
+                </div>
+                <div class="question">
+                    <p>Tell me all about your experience with red velvet cake</p>
+                    <label for="biography">Your anecdote</label>
+                    <textarea id="biography" name="Your Biography" rows="10" cols="50"></textarea>
+                    <p><button type="submit">Send</button></p>
+                </div>
+        </div>
+          
+    </main>
+    <footer>
+        <div>
+            <strong>Copyrigh @Sandro 2022 (except for all the stock images)</strong>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
