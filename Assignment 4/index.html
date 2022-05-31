@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./movies.js?speed=2"></script>
+    <script defer src="./script.js?speed=2"> </script>
+
+</head>
+<body>
+    <h1>Winc Film Finder</h1>
+    <nav>
+        <div class="option-box">
+            <input type="radio" name="movie" id="latest" value="new-movies"><label for="new-movies">Newest Movies</label>
+            <input type="radio" name="movie" id="x-men" value="x-men"><label for="x-men">X-Men Movies</label>
+            <input type="radio" name="movie" id="Avengers" value="Avengers"><label for="Avengers">Avenger Movies</label>
+            <input type="radio" name="movie" id="Batman" value="Batman"><label for="Batman">Batman Movies</label>
+            <input type="radio" name="movie" id="Princess" value="princess"><label for="princess">Princess Movies</label>
+        </div>
+    </nav>
+    <div id="movie-container">
+        <ul id="movie-list">
+        </ul>
+    </div>
+</body>
+</html>
