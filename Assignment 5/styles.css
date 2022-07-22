@@ -1,0 +1,13 @@
+li {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    height: 25px;
+    margin: 0px;
+}
